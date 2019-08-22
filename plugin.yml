@@ -1,0 +1,14 @@
+name: Warning
+main: Warning\Warning
+version: 1.0.0
+api: [3.0.0]
+author: れな.705
+
+commands:
+  warn:
+    description: §cWarning
+    usage: /warn
+    permission: op
+  checkwarn:
+    description: §c警告確認
+    usage: /checkwarn

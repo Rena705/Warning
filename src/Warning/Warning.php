@@ -15,7 +15,6 @@ use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\network\mcpe\protocol\ModalFormResponsePacket;
 use pocketmine\network\mcpe\protocol\ModalFormRequestPacket;
 use pocketmine\event\server\DataPacketReceiveEvent;
-use pocketmine\scheduler\Task;
 use pocketmine\utils\Config;
 
 class Warning extends PluginBase implements Listener {

@@ -22,6 +22,7 @@ class Warning extends PluginBase implements Listener {
 	public function onEnable() {
 		$this->getLogger()->info("§aWarning Loaded.");
 		$this->getLogger()->warning("二次配布を禁止します。");
+		$this->getLogger()->Notice("§6License§f: §bUIUC/NCSA");
 		$this->getLogger()->Notice("§aAuthor§f: れな.705 (れな/Rena705)");
 		$this->getLogger()->Notice("§bTwitter§f: https://twitter.com/Rena705   §6( @Rena705 )");
 		$this->getLogger()->Notice("§cYouTube§f: https://www.youtube.com/channel/UCC258KxM4dAqPnpA8BJ9w3w");

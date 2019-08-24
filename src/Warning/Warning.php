@@ -318,7 +318,7 @@ class Warning extends PluginBase implements Listener {
 		$msg = $event->getMessage();
 		if (substr($msg, 0, 1) === "/") {
 			if ($this->data[$name]->get("command") == true) {
-				if (substr($msg, 0, 5) !== "/warn") {
+				if (substr($msg, 0, 5) !== "/warn" || substr($msg, 0, 10) !== "/checkwarn") {
 					$event->setCancelled();
 					$player->addActionBarMessage("§cコマンドの使用を禁止されています。");
 				}
